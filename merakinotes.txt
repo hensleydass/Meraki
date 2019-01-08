@@ -1,0 +1,24 @@
+This was tested and sent by me a while ago, resending this as I might have just shared this Jay and Shaun.
+
+Meraki devices cannot be SNMP polled from outside the Meraki Cloud Network by default, however, configured an existing Meraki directly to provide SNMP info to our SNMP server.
+Once SNMP was enabled on the Meraki and Security Appliance services IP’s whitelisted, was able to send SNMP requests and extract info from the Meraki.
+
+Works with MX64, 84 and 100 which we will be using.
+
+
+Set the Community String 
+
+ 
+Allow Polling from our Server 
+ 
+ 
+
+
+Alerting Options from the Meraki can be done directly to the customer and via GCOMM router alerts 
+
+
+ 
+
+
+ 
+
